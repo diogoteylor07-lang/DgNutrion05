@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "DgNutrion05",
+    "slug": "dgnutrion05",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "dgnutrion05",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.dgnutrion05.app",
+      "versionCode": 1,
+      "minSdkVersion": 26,
+      "permissions": []
+    },
+    "ios": {
+      "bundleIdentifier": "com.dgnutrion05.app"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-sqlite",
+        {
+          "enableFTS": true
+        }
+      ],
+      "expo-camera"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
